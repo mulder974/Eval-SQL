@@ -1,0 +1,130 @@
+J'ai fait beaucoup de copié collé car me le sentais mieux, mais sinon on peut faire : 
+
+INSERT INTO "table" ( colonne1, Colonne2, colonne3 )
+VALUES
+(blabla, bloblo, blibli)
+(bloblo, blublu, bleble)
+(blabla, bloblo, blibli)
+(bloblo, blublu, bleble)
+.........
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+sqlite> INSERT INTO niveau ( couleur ) VALUES ( "Violet");
+sqlite> INSERT INTO niveau ( couleur ) VALUES ( "Bleu");
+sqlite> INSERT INTO niveau ( couleur ) VALUES ( "Vert");
+sqlite> SELECT * FROM niveau;
+1|Violet
+2|Bleu
+3|Vert
+
+sqlite> INSERT INTO eleves (Firstname,Lastname) VALUES ( "Lucas", "Choteau");
+sqlite> INSERT INTO eleves (Firstname,Lastname) VALUES ( "Aurore", "List");
+sqlite> INSERT INTO eleves (Firstname,Lastname) VALUES ( "Thibault", "Valton");
+sqlite> INSERT INTO eleves (Firstname,Lastname) VALUES ( "Adrien", "Fontaine");
+sqlite> INSERT INTO eleves (Firstname,Lastname) VALUES ( "Chloe", "Ronteix");
+sqlite> INSERT INTO eleves (Firstname,Lastname) VALUES ( "Steeven", "Camus");
+sqlite> INSERT INTO eleves (Firstname,Lastname) VALUES ( "Steeven", "Camus");
+sqlite> INSERT INTO eleves (Firstname,Lastname) VALUES ( "Fatima", "Mdoihoma");
+sqlite> INSERT INTO eleves (Firstname,Lastname) VALUES ( "Maxime", "Novikov");
+sqlite> INSERT INTO eleves (Firstname,Lastname) VALUES ( "Clement", "Camara");
+sqlite> INSERT INTO eleves (Firstname,Lastname) VALUES ( "Muriel", "Vuachet");
+sqlite> INSERT INTO eleves (Firstname,Lastname) VALUES ( "Julie", "Charrier");
+sqlite> INSERT INTO eleves (Firstname,Lastname) VALUES ( "Isabelle", "Cartia");
+sqlite> INSERT INTO eleves (Firstname,Lastname) VALUES ( "Sacha", "Debourgpallette");
+sqlite> INSERT INTO eleves (Firstname,Lastname) VALUES ( "Camille", "Lautredou");
+
+
+sqlite> INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (1,2,1);
+sqlite> INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (1,3,1);
+sqlite> INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (1,4,1);
+sqlite> INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (1,5,1);
+sqlite> INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (1,6,1);
+sqlite> INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (1,7,1);
+sqlite> INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (1,8,1);
+sqlite> INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (1,9,1);
+sqlite> INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (1,10,1);
+sqlite> INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (1,11,1);
+sqlite> INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (1,12,1);
+sqlite> INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (1,13,1);
+sqlite> INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (1,14,1);
+sqlite> INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (1,15,1)
+
+
+sqlite> INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (2,1,1);
+NSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (2,2,1);
+INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (2,3,1);
+INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (2,4,1);
+INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (2,5,1);
+INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (2,6,1);
+INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (2sqlite> INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (2,2,1);
+
+INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (2,8,1);
+INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (2,9,1);
+INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (2,10,1);
+INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (2,11,1);
+INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (2,12,1);
+INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (2,13,1);
+INSsqlite> INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (2,3,1);
+INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (2,14,1);
+INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (2,15,1);sqlite> INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (2,4,1);
+sqlite> INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (2,5,1);
+sqlite> INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (2,6,1);
+sqlite> INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (2,7,1);
+sqlite> INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (2,8,1);
+sqlite> INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (2,9,1);
+sqlite> INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (2,10,1);
+sqlite> INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (2,11,1);
+sqlite> INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (2,12,1);
+sqlite> INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (2,13,1);
+sqlite> INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (2,14,1);
+sqlite> INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (2,15,1);
+sqlite> SELECT * FROM niveau_de_la_classe;
+
+
+sqlite> INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (3,1,1);
+NSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (3,2,1);
+INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (3,3,1);
+INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (3,4,1);
+INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (3,5,1);
+INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (3,6,1);
+INSERT INTO niveau_de_la_clasqlite> INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (3,2,1);
+_id, eleve_id, niveau ) VALUES (3,7,1);
+INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (3,8,1);
+INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (3,9,1);
+INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (3,10,1);
+INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (3,11,1);
+INSERT INTO niveau_de_la_classe ( comsqlite> INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (3,3,1);
+petence_id, eleve_id, niveau ) VALUES (3,12,1);
+INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (3,13,1);
+INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (3,14,1);
+INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (3,15,1);
+INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (3,1,1);
+INSERT INTO niveau_de_la_classe ( competence_id, eleve_id,sqlite> INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (3,4,1);
+) VALUES (3,1,1);sqlite> INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (3,5,1);
+sqlite> INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (3,6,1);
+sqlite> INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (3,7,1);
+sqlite> INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (3,8,1);
+sqlite> INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (3,9,1);
+sqlite> INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (3,10,1);
+sqlite> INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (3,11,1);
+sqlite> INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (3,12,1);
+sqlite> INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (3,13,1);
+sqlite> INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (3,14,1);
+sqlite> INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (3,15,1);
+sqlite> INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (3,1,1);
+sqlite> INSERT INTO niveau_de_la_classe ( competence_id, eleve_id, niveau ) VALUES (3,1,1);
+
+sqlite> INSERT INTO competences (name)  VALUES ("C1");
+sqlite> INSERT INTO competences (name)  VALUES ("C2");
+sqlite> INSERT INTO competences (name)  VALUES ("C3");
+
+
+
+UPDATE niveau_de_la_classe
+   ...> SET niveau = 3
+   ...> WHERE eleve_id= 1;
+
+
+
